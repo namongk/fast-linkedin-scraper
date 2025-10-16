@@ -7,7 +7,7 @@ from playwright.async_api import ViewportSize
 class BrowserConfig:
     """Browser configuration settings."""
 
-    USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
     VIEWPORT: ViewportSize = {"width": 1920, "height": 1080}
     TIMEOUT = 15000  # timeout in ms
 
